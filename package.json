@@ -1,0 +1,103 @@
+{
+  "name": "sw-michigan-wine",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/roboto": "^5.0.13",
+    "@mui/icons-material": "^5.16.5",
+    "@mui/lab": "^5.0.0-alpha.173",
+    "@mui/material": "^5.16.6",
+    "@react-google-maps/api": "^2.19.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.17.1",
+    "axios": "^0.27.2",
+    "chart.js": "^4.4.3",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "fuse.js": "^7.0.0",
+    "leaflet": "^1.9.4",
+    "leaflet-providers": "^2.0.0",
+    "openai": "^4.56.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-leaflet": "^4.2.1",
+    "react-markdown": "^9.1.0",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "5.0.1",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "react-snap",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "reactSnap": {
+    "source": "build",
+    "minifyHtml": { "collapseWhitespace": false, "removeComments": false },
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "skipThirdPartyRequests": true,
+    "include": [
+      "/",
+      "/grape-varieties",
+      "/avas",
+      "/avas/fennville",
+      "/avas/lake-michigan-shore",
+      "/wineries/wyncroft",
+      "/wineries/modales",
+      "/wineries/fenn-valley-vineyards",
+      "/wineries/filkins-vineyards",
+      "/wineries/crane's-winery",
+      "/wineries/vineyard-2121",
+      "/wineries/st-julian-winery",
+      "/wineries/12-corners-vineyards",
+      "/wineries/domaine-berrien-cellars",
+      "/wineries/baroda-founders",
+      "/wineries/round-barn-winery",
+      "/wineries/lawton-ridge-winery",
+      "/wineries/lazy-ballerina-winery",
+      "/wineries/dablon-vineyards",
+      "/wineries/gravity-vineyards",
+      "/wineries/lemon-creek-winery",
+      "/wineries/red-top-winery",
+      "/wineries/hickory-creek-winery",
+      "/wineries/free-run-cellars",
+      "/wineries/tabor-hill",
+      "/wineries/stranger-wine-company",
+      "/wineries/golden-muse",
+      "/wineries/moonrise-winery",
+      "/wineries/warner-vineyards",
+      "/wineries/chill-hill-winery"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "react-snap": "^1.23.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

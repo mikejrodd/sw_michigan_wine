@@ -1,0 +1,38 @@
+# Allow all Google crawlers (including mobile-first indexing)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Allow AI/LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Allow all other crawlers
+User-agent: *
+Allow: /
+
+# Specify your sitemap for faster indexing
+Sitemap: https://www.lakemichiganshore.wine/sitemap.xml

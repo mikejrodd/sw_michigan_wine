@@ -1,0 +1,722 @@
+[
+    {
+        "variety": "Riesling",
+        "other_names": ["Rheinriesling", "Johannisberg Riesling"],
+        "budding_time": "Late season",
+        "ripening_time": "Late season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium(-)",
+            "body": "Light to Medium",
+            "tannin": "Low",
+            "flavors": ["Citrus", "Green apple", "Stone fruit", "Petrol"]
+        },
+        "image": "/assets/variety_images/riesling.jpg"
+    },
+    {
+        "variety": "Chardonnay",
+        "other_names": ["Aubaine", "Beaunois", "Melon Blanc"],
+        "budding_time": "Early",
+        "ripening_time": "Early to mid-season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium(+)",
+            "alcohol": "Medium(+)",
+            "body": "Medium(+)",
+            "tannin": "Low",
+            "flavors": ["Apple", "Citrus", "Tropical fruit", "Buttery", "Vanilla"]
+        },
+        "image": "/assets/variety_images/chard.jpg"
+    },
+    {
+        "variety": "Pinot Noir",
+        "other_names": ["Spätburgunder", "Blauburgunder"],
+        "budding_time": "Early",
+        "ripening_time": "Early to mid-season",
+        "species": "Vitis vinifera",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium(+)",
+            "alcohol": "Medium",
+            "body": "Light to Medium",
+            "tannin": "Medium(-)",
+            "flavors": ["Cherry", "Raspberry", "Earthy", "Spice", "Floral"]
+        },
+        "image": "/assets/variety_images/pinotnoir.jpg"
+    },
+    {
+        "variety": "Pinot Gris",
+        "other_names": ["Pinot Grigio", "Grauburgunder"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Early to mid-season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium(+)",
+            "alcohol": "Medium",
+            "body": "Light to Medium",
+            "tannin": "Low",
+            "flavors": ["Pear", "Apple", "Citrus", "Mineral"]
+        },
+        "image": "/assets/variety_images/pinotgris.jpg"
+    },
+    {
+        "variety": "Merlot",
+        "other_names": ["Crabatut noir", "Bigney"],
+        "budding_time": "Early",
+        "ripening_time": "Mid-season",
+        "species": "Vitis vinifera",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium(+)",
+            "body": "Medium(+)",
+            "tannin": "Medium",
+            "flavors": ["Black cherry", "Plum", "Chocolate", "Herbal"]
+        },
+        "image": "/assets/variety_images/merlot.jpg"
+    },
+    {
+        "variety": "Cabernet Franc",
+        "other_names": ["Bouchet", "Breton", "Gros Bouchet"],
+        "budding_time": "Early to mid-season",
+        "ripening_time": "Mid to late season",
+        "species": "Vitis vinifera",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium(+)",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "Medium",
+            "flavors": ["Red fruit", "Green bell pepper", "Herbaceous", "Spice"]
+        },
+        "image": "assets/variety_images/cabfranc.jpg"
+    },
+    {
+        "variety": "Cabernet Sauvignon",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Late",
+        "ripening_time": "Late",
+        "species": "Vitis vinifera",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium(+)",
+            "alcohol": "High",
+            "body": "Full",
+            "tannin": "High",
+            "flavors": ["Blackcurrant", "Cedar", "Mint", "Tobacco"]
+        },
+        "image": "assets/variety_images/cabernetsauvignon.jpg"
+    },
+    {
+        "variety": "Sauvignon Blanc",
+        "other_names": ["Fumé Blanc"],
+        "budding_time": "Mid to late season",
+        "ripening_time": "Early to mid-season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Light to Medium",
+            "tannin": "Low",
+            "flavors": ["Grapefruit", "green apple", "Citrus", "Herbaceous"]
+        },
+        "image": "/assets/variety_images/sauvblanc.jpg"
+    },
+    {
+        "variety": "Gewurtztraminer",
+        "other_names": ["Traminer", "Savagnin"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Early to mid-season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium(-)",
+            "alcohol": "Medium(+)",
+            "body": "Medium(+)",
+            "tannin": "Low",
+            "flavors": ["Lychee", "Rose", "Spice", "Tropical Fruit"]
+        },
+        "image": "/assets/variety_images/gewurtztraminer.jpg"
+    },
+    {
+        "variety": "Chambourcin",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Late season",
+        "species": "Vitis hybrid",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "Medium",
+            "flavors": ["Black cherry", "Plum", "Spice", "Earthy"]
+        },
+        "image": "/assets/variety_images/chambourcin.jpeg"
+    },
+    {
+        "variety": "Vidal Blanc",
+        "other_names": ["Vidal"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Late season",
+        "species": "Hybrid (Vitis vinifera x Vitis riparia)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Medium(+)",
+            "tannin": "None",
+            "flavors": ["Apple", "Citrus", "Honey", "Tropical Fruit"]
+        },
+        "image": "assets/variety_images/vidalblanc.png"
+    },
+    {
+        "variety": "Traminette",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid to late season",
+        "ripening_time": "Late season",
+        "species": "Vitis hybrid",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "Low",
+            "flavors": ["Spices", "Rose", "Lychee", "Apricot"]
+        },
+        "image": "/assets/variety_images/traminette.png"
+    },
+    {
+        "variety": "Pinot Blanc",
+        "other_names": ["Weißburgunder", "Pinot Bianco", "Clevner", "Klevner"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Mid-season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Light",
+            "tannin": "None",
+            "flavors": ["Pear", "Peach", "Almond", "Lemon Zest"]
+        },
+        "image": "assets/variety_images/pinotblanc.jpg"
+    },
+    {
+        "variety": "Pinot Meunier",
+        "other_names": ["Meunier", "Schwarzriesling"],
+        "budding_time": "Late",
+        "ripening_time": "Early to mid-season",
+        "species": "Vitis vinifera",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium(+)",
+            "alcohol": "Medium",
+            "body": "Light to Medium",
+            "tannin": "Low",
+            "flavors": ["Red Fruit", "Smoky", "Spicy", "Herbal"]
+        },
+        "image": "assets/variety_images/pinotmeunier.jpg"
+    },
+    {
+        "variety": "Seyval",
+        "other_names": ["Seyval Blanc"],
+        "budding_time": "Early",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis vinifera x Vitis labrusca)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium(+)",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "None",
+            "flavors": ["Apple", "Citrus", "Floral", "Mineral"]
+        },
+        "image": "assets/variety_images/seyvalblanc.jpg"
+    },
+    {
+        "variety": "Vignoles",
+        "other_names": ["Ravat 51"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Mid to late season",
+        "species": "Hybrid (Vitis vinifera x Seibel 6905)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "None",
+            "flavors": ["Citrus", "Pineapple", "Honey", "Floral"]
+        },
+        "image": "assets/variety_images/vignoles.png"
+    },
+    {
+        "variety": "Foch",
+        "other_names": ["Marechal Foch"],
+        "budding_time": "Early",
+        "ripening_time": "Early",
+        "species": "Hybrid (Vitis riparia x Vitis vinifera)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium(-)",
+            "body": "Light to Medium",
+            "tannin": "Medium(-)",
+            "flavors": ["Berry", "Cherry", "Spice", "Earthy"]
+        },
+        "image": "assets/variety_images/foch.jpg"
+    },
+    {
+        "variety": "Chancellor",
+        "other_names": ["Seibel 7053"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Seibel 5163 x Seibel 880)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "Medium",
+            "flavors": ["Plum", "Cherry", "Spice", "Vanilla"]
+        },
+        "image": "assets/variety_images/chancellor.png"
+    },
+    {
+        "variety": "Gamay Noir",
+        "other_names": ["Gamay"],
+        "budding_time": "Early",
+        "ripening_time": "Early",
+        "species": "Vitis vinifera",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium(-)",
+            "body": "Light",
+            "tannin": "Low",
+            "flavors": ["Red Cherry", "Raspberry", "Banana", "Violet"]
+        },
+        "image": "/assets/variety_images/gamay.jpg"
+    },
+    {
+        "variety": "Lemberger",
+        "other_names": ["Blaufränkisch", "Kékfrankos"],
+        "budding_time": "Early",
+        "ripening_time": "Late",
+        "species": "Vitis vinifera",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium(+)",
+            "tannin": "Medium",
+            "flavors": ["Black Cherry", "Pepper", "Spice", "Earthy"]
+        },
+        "image": "/assets/variety_images/blaufrankisch.jpeg"
+    },
+    {
+        "variety": "Muscat Ottonel",
+        "other_names": ["Muskat-Ottonel", "Muskotaly"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Early to mid-season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Low",
+            "alcohol": "Medium",
+            "body": "Light",
+            "tannin": "None",
+            "flavors": ["Floral", "Grapey", "Citrus", "Spice"]
+        },
+        "image": "/assets/variety_images/muscatottonel.png"
+    },
+    {
+        "variety": "Grüner Veltliner",
+        "other_names": ["Weissgipfler", "Grüner Muskateller"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Late",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "None",
+            "flavors": ["Citrus", "White Pepper", "Herbaceous", "Mineral"]
+        },
+        "image": "/assets/variety_images/gruner.png"
+    },
+    {
+        "variety": "Marquette",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis riparia based)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "Medium",
+            "flavors": ["Cherry", "Berry", "Pepper", "Spice"]
+        },
+        "image": "assets/variety_images/marquette.jpg"
+    },
+    {
+        "variety": "Crimson Cabernet",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Late season",
+        "species": "Hybrid (Cabernet Sauvignon x Norton)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium(+)",
+            "body": "Medium(+)",
+            "tannin": "Medium",
+            "flavors": ["Blackberry", "Currant", "Oak", "Spice"]
+        },
+        "image": "assets/variety_images/crimsoncabernet.png"
+    },
+    {
+        "variety": "Regent",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis vinifera x Interspecific)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium(+)",
+            "tannin": "Medium",
+            "flavors": ["Cherry", "Blackberry", "Spice", "Chocolate"]
+        },
+        "image": "assets/variety_images/regent.jpg"
+    },
+    {
+        "variety": "Valiant",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early",
+        "ripening_time": "Early",
+        "species": "Hybrid (Vitis riparia x Vitis labrusca)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Low",
+            "body": "Light",
+            "tannin": "Low",
+            "flavors": ["Grapey", "Berry", "Floral"]
+        },
+        "image": "assets/variety_images/valiant.png"
+    },
+    {
+        "variety": "Viognier",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid to late season",
+        "ripening_time": "Late season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium(-)",
+            "alcohol": "High",
+            "body": "Full",
+            "tannin": "Low",
+            "flavors": ["Apricot", "Peach", "Floral", "Spice"]
+        },
+        "image": "/assets/variety_images/viognier.jpg"
+    },
+    {
+        "variety": "Marsanne",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Late season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium(-)",
+            "alcohol": "High",
+            "body": "Full",
+            "tannin": "Low",
+            "flavors": ["Honey", "Almond", "Marzipan", "Pear", "Peach"]
+        },
+        "image": "/assets/variety_images/marsanne.jpg"
+    },
+    {
+        "variety": "Roussanne",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Late",
+        "ripening_time": "Late season",
+        "species": "Vitis vinifera",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium(+)",
+            "body": "Medium(+)",
+            "tannin": "Low",
+            "flavors": ["Herbal tea", "Pear", "Honey", "Apricot", "Nuts"]
+        },
+        "image": "/assets/variety_images/roussanne.jpg"
+    },
+    {
+        "variety": "Frontenac",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Late",
+        "ripening_time": "Late",
+        "species": "Hybrid (Vitis riparia based)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "Medium",
+            "flavors": ["Cherry", "Blackcurrant", "Plum", "Spice"]
+        },
+        "image": "assets/variety_images/frontenac.png"
+    },
+    {
+        "variety": "Chardonel",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Late season",
+        "species": "Hybrid (Chardonnay x Seyval Blanc)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium(+)",
+            "body": "Medium(+)",
+            "tannin": "None",
+            "flavors": ["Apple", "Pear", "Citrus", "Vanilla"]
+        },
+        "image": "assets/variety_images/chardonel.png"
+    },
+    {
+        "variety": "De Chaunac",
+        "other_names": ["Seibel 9549"],
+        "budding_time": "Early",
+        "ripening_time": "Early to mid-season",
+        "species": "Hybrid (Vitis vinifera x Vitis labrusca)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "Medium(-)",
+            "flavors": ["Cherry", "Plum", "Herbaceous", "Earthy"]
+        },
+        "image": "assets/variety_images/dechaunac.png"
+    },
+    {
+        "variety": "Frontenac Gris",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early to mid-season",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis riparia x Vitis vinifera)",
+        "color": "Pink",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "None",
+            "flavors": ["Peach", "Pineapple", "Honey", "Citrus"]
+        },
+        "image": "assets/variety_images/frontenacgris.png"
+    },
+    {
+        "variety": "Itasca",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early to mid-season",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis riparia based)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium(+)",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "None",
+            "flavors": ["Pear", "Melon", "Mineral", "Citrus"]
+        },
+        "image": "assets/variety_images/itasca.png"
+    },
+    {
+        "variety": "Frontenac Blanc",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early to mid-season",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis riparia x Vitis vinifera)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "None",
+            "flavors": ["Citrus", "Pineapple", "Tropical fruit", "Floral"]
+        },
+        "image": "assets/variety_images/frontenacblanc.png"
+    },
+    {
+        "variety": "La Crescent",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis riparia based)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Light to Medium",
+            "tannin": "None",
+            "flavors": ["Apricot", "Peach", "Citrus", "Floral"]
+        },
+        "image": "assets/variety_images/lacrescent.png"
+    },
+    {
+        "variety": "Baco Noir",
+        "other_names": ["Baco 1"],
+        "budding_time": "Early",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis vinifera x Vitis riparia)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "High",
+            "alcohol": "Medium",
+            "body": "Light to Medium",
+            "tannin": "Low",
+            "flavors": ["Blueberry", "Plum", "Smoky", "Earthy"]
+        },
+        "image": "assets/variety_images/baconoir.png"
+    },
+    {
+        "variety": "Cayuga White",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Early to mid-season",
+        "species": "Hybrid (Vitis labrusca x Vitis vinifera)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Light to Medium",
+            "tannin": "None",
+            "flavors": ["Apple", "Citrus", "Melon", "Floral"]
+        },
+        "image": "assets/variety_images/cayugawhite.png"
+    },
+    {
+        "variety": "Petite Pearl",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Late",
+        "ripening_time": "Late season",
+        "species": "Hybrid (Vitis riparia x Vitis vinifera)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Low",
+            "alcohol": "Medium",
+            "body": "Medium(+)",
+            "tannin": "High",
+            "flavors": ["Blueberry", "Plum", "Cherry", "Anise"]
+        },
+        "image": "assets/variety_images/petitepearl.png"
+    },
+    {
+        "variety": "Brianna",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (related to Muscat)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "None",
+            "flavors": ["Grapefruit", "Pineapple", "Tropical fruits"]
+        },
+        "image": "assets/variety_images/brianna.png"
+    },
+    {
+        "variety": "Valvin Muscat",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early",
+        "ripening_time": "Mid-season",
+        "species": "Hybrid (Vitis vinifera x Muscat Ottonel)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "None",
+            "flavors": ["Muscat", "Floral", "Citrus", "Spice"]
+        },
+        "image": "assets/variety_images/valvinmuscat.png"
+    },
+    {
+        "variety": "Himrod",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Early",
+        "ripening_time": "Early",
+        "species": "Hybrid (Vitis labrusca x Vitis vinifera)",
+        "color": "White",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Low",
+            "body": "Light",
+            "tannin": "None",
+            "flavors": ["Grapey", "Floral", "Honey", "Melon"]
+        },
+        "image": "assets/variety_images/himrod.png"
+    },
+    {
+        "variety": "Leon Millot",
+        "other_names": ["Millot", "Kuhlmann 194-2", "Fruhe Schwarze", "Leon Millot Rouge" ],
+        "budding_time": "Early",
+        "ripening_time": "Early",
+        "species": "Hybrid (Vitis riparia x Vitis vinifera)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Light to Medium",
+            "tannin": "Low",
+            "flavors": ["Berry", "White Pepper", "Earthy"]
+        },
+        "image": "assets/variety_images/leonmillot.png"
+    },
+    {
+        "variety": "Noiret",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Late season",
+        "species": "Hybrid (Vitis riparia based)",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium(+)",
+            "body": "Medium(+)",
+            "tannin": "Medium",
+            "flavors": ["Blackberry", "Pepper", "Herbaceous", "Spice"]
+        },
+        "image": "assets/variety_images/noiret.png"
+    },
+    {
+        "variety": "Zweigelt",
+        "other_names": ["🙅🏽"],
+        "budding_time": "Mid-season",
+        "ripening_time": "Mid to late season",
+        "species": "Vitis vinifera",
+        "color": "Black",
+        "typical_style": {
+            "acidity": "Medium",
+            "alcohol": "Medium",
+            "body": "Medium",
+            "tannin": "Medium",
+            "flavors": ["Cherry", "Raspberry", "Pepper", "Spice"]
+        },
+        "image": "/assets/variety_images/zweigelt.png"
+    }
+]

@@ -1,0 +1,47 @@
+# Lake Michigan Shore Wineries
+
+> A comprehensive guide to wineries, grape varieties, and wine tourism in Southwest Michigan's Lake Michigan Shore and Fennville American Viticultural Areas (AVAs).
+
+## About
+
+Lake Michigan Shore Wine Country features 27+ wineries across two federally designated AVAs in Southwest Michigan. The Lake Michigan Shore AVA, established in 1983, spans 3,200 square miles along the eastern shore of Lake Michigan. The smaller Fennville AVA sits within it. The region is known for cold-climate varietals including Pinot Noir, Riesling, Cabernet Franc, Chardonnay, and French-American hybrid grapes. Southwest Michigan accounts for 79% of total planted vineyard acres in the state.
+
+## Key Pages
+
+- [Home](https://www.lakemichiganshore.wine/): Main landing page for Lake Michigan Shore wine country
+- [Lake Michigan Shore AVA](https://www.lakemichiganshore.wine/avas/lake-michigan-shore): History, growing conditions, wineries, and notable grape varieties of the Lake Michigan Shore AVA
+- [Fennville AVA](https://www.lakemichiganshore.wine/avas/fennville): Overview of the Fennville AVA, its unique microclimate, wineries, and must-try bottles
+- [Grape Varieties](https://www.lakemichiganshore.wine/grape-varieties): Vinifera and hybrid grape varieties grown in Southwest Michigan, with acreage data
+- [Winery Map](https://map.lakemichiganshore.wine/): Interactive map of all wineries in the Lake Michigan Shore and Fennville AVAs
+
+## Wineries
+
+- [Wyncroft](https://www.lakemichiganshore.wine/wineries/wyncroft) - Pullman, MI (Fennville AVA) - Small-production estate wines, fewer than 2,000 cases annually, European grape varieties
+- [Modales](https://www.lakemichiganshore.wine/wineries/modales) - Fennville, MI (Fennville AVA) - Cool-climate, minimal-intervention wines; one of Michigan's only Certified Organic wineries
+- [Stranger Wine Company](https://www.lakemichiganshore.wine/wineries/stranger-wine-company) - Buchanan, MI (Lake Michigan Shore AVA) - Family-owned micro-winery, regenerative viticulture, minimal-intervention wines
+- [Fenn Valley Vineyards](https://www.lakemichiganshore.wine/wineries/fenn-valley-vineyards) - Fennville, MI (Fennville AVA) - Established vineyard on a sand ridge with ideal microclimate, vinifera and hybrid varieties
+- [Filkins Vineyards](https://www.lakemichiganshore.wine/wineries/filkins-vineyards) - Coloma, MI (Lake Michigan Shore AVA) - Boutique winery in the heart of the AVA
+- [Crane's Winery](https://www.lakemichiganshore.wine/wineries/crane's-winery) - Fennville, MI (Fennville AVA) - Part of Crane's Pie Pantry, wines and ciders
+- [Vineyard 2121](https://www.lakemichiganshore.wine/wineries/vineyard-2121) - Benton Harbor, MI (Lake Michigan Shore AVA) - Family-owned vineyard with wines, small batch brews, and premium vodka
+- [St. Julian Winery](https://www.lakemichiganshore.wine/wineries/st-julian-winery) - Paw Paw, MI (Lake Michigan Shore AVA) - Founded 1921, Michigan's most-awarded winery, 100+ award-winning products
+- [12 Corners Vineyards](https://www.lakemichiganshore.wine/wineries/12-corners-vineyards) - Benton Harbor, MI (Lake Michigan Shore AVA) - 115-acre estate with vinifera and hybrid grapes
+- [Domaine Berrien Cellars](https://www.lakemichiganshore.wine/wineries/domaine-berrien-cellars) - Berrien Springs, MI (Lake Michigan Shore AVA) - Boutique winery focusing on Rhone varieties like Syrah, Viognier, Marsanne
+- [Baroda Founders](https://www.lakemichiganshore.wine/wineries/baroda-founders) - Baroda, MI (Lake Michigan Shore AVA) - Pioneer of European vine cultivation in Michigan, founded by Leonard Olson
+- [Round Barn Winery](https://www.lakemichiganshore.wine/wineries/round-barn-winery) - Union Pier, MI (Lake Michigan Shore AVA) - Award-winning wines, handcrafted spirits, and micro brews for 30+ years
+- [Lawton Ridge Winery](https://www.lakemichiganshore.wine/wineries/lawton-ridge-winery) - Kalamazoo, MI (Lake Michigan Shore AVA) - Award-winning wines from Michigan-grown grapes since 2008
+- [Lazy Ballerina Winery](https://www.lakemichiganshore.wine/wineries/lazy-ballerina-winery) - St. Joseph, MI (Lake Michigan Shore AVA) - Downtown tasting room in St. Joseph
+- [Dablon Vineyards](https://www.lakemichiganshore.wine/wineries/dablon-vineyards) - Baroda, MI (Lake Michigan Shore AVA) - 75-acre estate, 17 varietals including Malbec and Petit Verdot, tasting room ranked #8 nationally
+- [Gravity Vineyards](https://www.lakemichiganshore.wine/wineries/gravity-vineyards) - Baroda, MI (Lake Michigan Shore AVA) - Estate-grown wines with stunning vineyard and lake views
+- [Lemon Creek Winery](https://www.lakemichiganshore.wine/wineries/lemon-creek-winery) - Berrien Springs, MI (Lake Michigan Shore AVA) - Multi-generational family winery
+- [Red Top Winery](https://www.lakemichiganshore.wine/wineries/red-top-winery) - Baroda, MI (Lake Michigan Shore AVA) - Boutique winery in the Baroda wine corridor
+- [Hickory Creek Winery](https://www.lakemichiganshore.wine/wineries/hickory-creek-winery) - Buchanan, MI (Lake Michigan Shore AVA) - Small-batch, veteran-owned, European-style wines
+- [Free Run Cellars](https://www.lakemichiganshore.wine/wineries/free-run-cellars) - Berrien Springs, MI (Lake Michigan Shore AVA) - Small family-owned winery, diverse range of dry and sweet wines
+- [Tabor Hill](https://www.lakemichiganshore.wine/wineries/tabor-hill) - Buchanan, MI (Lake Michigan Shore AVA) - Established 1970s, award-winning wines, fine dining, vineyard tours
+- [Golden Muse](https://www.lakemichiganshore.wine/wineries/golden-muse) - Baroda, MI (Lake Michigan Shore AVA) - Women-owned, vegan-friendly wines, Steampunk-styled tasting room
+- [Moonrise Winery](https://www.lakemichiganshore.wine/wineries/moonrise-winery) - Watervliet, MI (Lake Michigan Shore AVA) - Family-owned, estate-grown wines with panoramic vineyard views
+- [Warner Vineyards](https://www.lakemichiganshore.wine/wineries/warner-vineyards) - Paw Paw, MI (Lake Michigan Shore AVA) - Michigan's second-oldest winery, established 1938
+- [Chill Hill Winery](https://www.lakemichiganshore.wine/wineries/chill-hill-winery) - Baroda, MI (Lake Michigan Shore AVA) - Beach-inspired atmosphere, 30+ grape varieties on 400-acre family vineyard
+
+## Optional
+
+- [Full content for LLMs](https://www.lakemichiganshore.wine/llms-full.txt)

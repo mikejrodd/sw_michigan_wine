@@ -1,0 +1,425 @@
+[
+    {
+      "position": [42.493678, -86.165010],
+      "name": "Wyncroft",
+      "address": "1055 64th St, Pullman, MI 49450",
+      "description": "Wyncroft produces fewer than 2,000 cases annually, reflecting their dedication to quality and detail, showcased in their Arts and Crafts-inspired labels. Each step, from vineyard cultivation to hand-applied labels, is meticulously done with care. They focus on low-yield, high-concentration farming, promoting a diverse ecosystem without irrigation or fertilization. Specializing in European grape varieties, their estate-bottled wines rival those from renowned global regions, challenging perceptions of Michigan's wine potential. Their loyal following appreciates the impressive quality of these world-class wines.",
+      "ava": "Fennville",
+      "image": "/assets/winery_logos/wyncroft.png",
+      "place_id": "ChIJ0WyBD_v9GYgRN638_X6U_GI",
+      "website": "https://www.wyncroftwine.com",
+      "wines_url": "https://www.wyncroftwine.com/our-wine",
+    
+      "slug": "wyncroft",
+      "phone": "269-409-1855",
+      "email": "admin@wyncroftwine.com",
+      "appointment_only": true,
+      "social": {
+        "facebook": "https://www.facebook.com/wyncroftmarlandwine",
+        "instagram": "https://instagram.com/wyncroftmarlandwine"
+      },
+      "wines": [
+        {
+          "name": "2022 Wyncroft Shou, LePage Estate Vineyard",
+          "vintage": 2022,
+          "price": 45,
+          "productUrl": "https://www.wyncroftwine.com/our-wine/2022-wyncroft-shou-lepage-estate-vineyard"
+        },
+        {
+          "name": "2022 Wyncroft Shou Blanc, LePage Estate",
+          "vintage": 2022,
+          "price": 30,
+          "productUrl": "https://www.wyncroftwine.com/our-wine/2018-wyncroft-shou-blanc"
+        },
+        {
+          "name": "2022 Wyncroft Pinot Noir, LePage Estate Vineyards",
+          "vintage": 2022,
+          "price": 45,
+          "productUrl": "https://www.wyncroftwine.com/our-wine/2022-wyncroft-pinot-noir-lepage-estate-vineyards"
+        },
+        {
+          "name": "2023 Wyncroft Chardonnay, Singer Lake Vineyard",
+          "vintage": 2023,
+          "price": 35,
+          "productUrl": "https://www.wyncroftwine.com/our-wine/ygpperzlfknhzd896ntc7xt9sa88tv"
+        }
+      ],
+      "updated_at": "2025-08-08T00:00:00.000Z"
+    },
+    {
+      "position": [42.57306713699025, -86.1529927418279],
+      "name": "Modales",
+      "address": "2128 62nd Street, Fennville, MI 49408",
+      "description": "/descriptions/modales.md",
+      "ava": "Fennville",
+      "image": "/assets/winery_logos/modales.png",
+      "place_id": "ChIJb7BQHgz7GYgRqyh6QozmBu4",
+      "website": "https://modaleswines.com",
+      "wines_url": "",
+    
+      "slug": "modales",
+      "phone": "269-722-3505",
+      "email": "sales@modaleswines.com",
+      "appointment_only": false,
+      "hours": {
+        "mon": "12pm–7pm",
+        "tue": "12pm–7pm",
+        "wed": "12pm–7pm",
+        "thu": "12pm–7pm",
+        "fri": "12pm–7pm",
+        "sat": "12pm–7pm",
+        "sun": "12pm–7pm"
+      },
+      "website_meta": {
+        "title": "Modales Wines – Fennville, Michigan",
+        "description": "Cool-climate, minimal-intervention wines; one of Michigan’s only Certified Organic wineries.",
+        "lastFetched": "2025-08-08"
+      },
+      "wines": [
+        {
+          "name": "2023 LMS Pinot Blanc",
+          "vintage": 2023,
+          "price": 34,
+          "productUrl": "https://modaleswines.com/product/2023-lms-pinot-blanc"
+        },
+        {
+          "name": "2023 Lake Michigan Shore Syrah",
+          "vintage": 2023,
+          "price": null,
+          "productUrl": "https://modaleswines.com/product/2023-lake-michigan-shore-syrah"
+        },
+        {
+          "name": "2022 El Suelo Red Blend",
+          "vintage": 2022,
+          "price": null,
+          "productUrl": "https://modaleswines.com/product/2022-el-suelo-red-blend"
+        }
+      ],
+      "updated_at": "2025-08-08"
+    },
+    {
+      "position": [41.85674100723681, -86.41689194689923],
+      "name": "Stranger Wine Company",
+      "address": "14420 Madron Lake Rd, Buchanan, MI 49120",
+      "description": "/descriptions/stranger.md",
+      "ava": "Lake Michigan Shore",
+      "image": "/assets/winery_logos/strangerwineco.png",
+      "place_id": "ChIJVVldJbspEYgRkcVYP0P2WZs",
+      "website": "https://www.strangerwineco.com",
+      "wines_url": "",
+    
+      "slug": "stranger-wine-company",
+      "email": "hellostranger@strangerwineco.com",
+      "appointment_only": true,
+      "tasting_room": {
+        "address": "201 E Front St, Buchanan, MI",
+        "hours": {
+          "fri": "2pm–8pm",
+          "sat": "2pm–8pm",
+          "sun": "12pm–6pm"
+        }
+      },
+      "vineyard_address": "14420 Madron Lake Road, Buchanan, MI 49107",
+      "social": {
+        "instagram": "https://www.instagram.com/strangerwineco/"
+      },
+      "website_meta": {
+        "title": "Stranger Wine Company",
+        "description": "Family-owned micro-winery in Buchanan, MI. Regenerative viticulture, minimal-intervention wines.",
+        "lastFetched": "2025-08-08"
+      },
+      "wines": [
+          {
+            "name": "2023 Estate Riesling",
+            "vintage": 2023,
+            "price": 36,
+            "productUrl": "https://vinoshipper.com/catalog/sparkling/stranger_wine_company/riesling_141260"
+          },
+          {
+            "name": "2022 Cabernet Sauvignon",
+            "vintage": 2022,
+            "price": 55,
+            "productUrl": "https://vinoshipper.com/shop/stranger_wine_company"
+          },
+          {
+            "name": "2023 Pinot Gris",
+            "vintage": 2023,
+            "price": 28,
+            "productUrl": "https://vinoshipper.com/catalog/sparkling/stranger_wine_company/pinot_gris_147374"
+          },
+          {
+            "name": "2023 Pinot Noir",
+            "vintage": 2023,
+            "price": 42,
+            "productUrl": "https://vinoshipper.com/shop/stranger_wine_company"
+          },
+          {
+            "name": "2023 Cabernet Franc",
+            "vintage": 2023,
+            "price": 36,
+            "productUrl": "https://vinoshipper.com/shop/stranger_wine_company"
+          },
+          {
+            "name": "2024 Kerner",
+            "vintage": 2024,
+            "price": 34,
+            "productUrl": "https://vinoshipper.com/shop/stranger_wine_company"
+          },
+          {
+            "name": "2024 Skin Contact Pinot Gris",
+            "vintage": 2024,
+            "price": 36,
+            "productUrl": "https://vinoshipper.com/shop/stranger_wine_company/skin_contact_pinot_gris_157970"
+          },
+          {
+            "name": "2023 Rosé",
+            "vintage": 2023,
+            "price": 28,
+            "productUrl": "https://vinoshipper.com/shop/stranger_wine_company/rose_133409"
+          }
+        ],
+      "updated_at": "2025-08-08"
+    },
+    {
+        "position": [42.57766296827444, -86.14404210482206],
+        "name": "Fenn Valley Vineyards",
+        "address": "6130 122nd Ave, Fennville, MI 49408",
+        "description": "Fenn Valley Vineyards is situated on a prominent sand ridge extending inland from Lake Michigan, creating a distinctive microclimate favorable for grape cultivation. This strategic location moderates winter temperatures while providing a cooling effect during summer. The proximity to Lake Michigan helps protect the vines from severe cold, while the distance ensures that summer temperatures support proper ripening without excessive heat. Such climatic benefits are characteristic of other renowned global wine regions near large bodies of water.\n\nThe vineyard's sandy, well-drained, and relatively infertile soil is ideal for grapevines, which require deep root systems. The elevated and slightly sloped terrain facilitates effective cold air drainage, extending the growing season and enhancing ripening conditions. To ensure consistent fermentation and aging conditions, the 17,000 square foot winery cellar is built into the hillside, leveraging the earth’s natural temperature stability.\n\nInitially used for tree fruit farming, the land was converted for vineyard use by clearing fruit trees and preparing the soil. The early focus was on producing natural fruit wines, including Peach, Cherry, and Raspberry, which have earned national acclaim. Grape cultivation began in 1974, with ongoing experimentation with various grape varieties. Initial efforts included Vinifera and Hybrid varieties, transitioning from Michigan’s traditional Concord and Niagara grapes.  This continuous experimentation aims to adapt to the unique climate and produce exceptional wines.",
+        "ava": "Fennville",
+        "image": "/assets/winery_logos/fenn_valley.png",
+        "place_id": "ChIJgea6tm_3GYgRz0D_5cuOCjg",
+        "website": "https://www.fennvalley.com",
+        "wines_url": "https://www.fennvalley.com/product-category/wine_hard_cider/"
+    },
+    {
+        "position": [42.18098476905906, -86.28863187415075],
+        "name": "Filkins Vineyards",
+        "address": "6991 Ryno Rd, Coloma, MI 49038",
+        "description": "/descriptions/filkins.md",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/filkins.png",
+        "place_id": "ChIJO9M0s321EIgRW0Uaneopje4",
+        "website": "https://filkinsvineyards.com/",
+        "wines_url": "https://filkinsvineyards.com/shop/"
+    },
+    {
+        "position": [42.59355058840457, -86.13677028577398],
+        "name": "Crane's Winery",
+        "address": "6054 124th Ave, Fennville, MI 49408",
+        "description": "/descriptions/cranes.md",
+        "ava": "Fennville",
+        "image": "/assets/winery_logos/cranes.png",
+        "place_id": "ChIJiQfypqj7GYgRferH2if_R4A",
+        "website": "https://www.cranespiepantry.com",
+        "wines_url": "https://www.cranespiepantry.com/winery.html"
+    },    
+    {
+        "position": [42.15216602610196, -86.35791870507747],
+        "name": "Vineyard 2121",
+        "address": "4110 Red Arrow Highway, Benton Harbor, MI 49022",
+        "description": "Vineyard 2121 was founded by Jeffrey and Deborah Pallas, driven by their passion for quality wine and a desire to contribute to their local Southwest Michigan community. With backgrounds in landscaping and hospitality, respectively, Jeff and Deb combined their skills to create a welcoming destination for relaxation and enjoyment.\n\nThe vineyard was established in 2009, transforming an abandoned juice grape operation into a thriving wine and raspberry farm. The initial raspberry crop was sold at local farmers markets while waiting for the wine grapes to mature, with the first harvest occurring in 2012. The Pallas family’s commitment to environmental stewardship was recognized with the Berrien County Conservation Farm of the Year award in 2014.\n\nThe tasting room at Vineyard 2121 was constructed from the ground up with support from family, friends, and a dedicated team, officially opening to the public on July 25, 2015. The winery has since expanded its offerings to include small batch brews and premium vodka, alongside a variety of wines. The outdoor space has been enhanced with a larger seating area, an outdoor stage for live music, and fire pit areas for evening enjoyment.\n\nOwners Jeff and Deb are often present at the winery, interacting with guests and sharing their passion for wine. Deb’s favorites include the Seyval Blanc and Cabernet Sauvignon, while Jeff favors the semi-dry Pandora's Bottle and Cabernet Franc. Vineyard 2121 continues to evolve, maintaining its dedication to quality and community engagement.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/vineyard_2121.jpg",
+        "place_id": "ChIJjQyf4b3JEIgR_QtvLsQXF7A",
+        "website": "https://vineyard2121.com",
+        "wines_url": ""
+    },
+    {
+        "position": [42.21187889271118, -85.89159940470483],
+        "name": "St. Julian Winery",
+        "address": "716 South Kalamazoo Street, Paw Paw, MI 49079",
+        "description": "Founded in 1921 by Italian immigrant Mariano Meconi, The Border City Winery in Ontario, Canada marked the beginning of what would become St. Julian Winery. After the repeal of Prohibition, Mariano relocated the business to Detroit, renaming it the Meconi Wine Company. In 1936, the name was changed to Italian Wine Co., coinciding with a move to its current location in Paw Paw, MI, within Michigan's premier grape-growing region, The Lake Michigan Shore Appellation. In 1941, the name was changed to St. Julian, honoring the patron saint of Mariano's hometown, a name that has endured over the decades.\n\nSt. Julian Winery has remained under family ownership and operation for four generations. The winery has maintained a long-standing commitment to supporting local farms and producing high-quality wine and juice, establishing itself as the most-awarded winery in Michigan.\n\nSt. Julian's diverse portfolio includes over 100 award-winning products, featuring distilled spirits, ciders, and a range of wines from internationally recognized dry wines to acclaimed sweet and dessert wines. The winery is also Michigan's first craft distillery, known for producing premium spirits such as vodka, rum, and brandy, many of which are made from grapes.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/st_julian.png",
+        "place_id": "ChIJUwSTbU1qF4gRoNlytcVDOB8",
+        "website": "https://www.stjulian.com",
+        "wines_url": ""
+    },
+    {
+        "position": [42.1340462632281, -86.37473425050266],
+        "name": "12 Corners Vineyards",
+        "address": "1201 N Benton Center Rd, Benton Harbor, MI 49022",
+        "description": "West Michigan has been home to some of the most productive and scenic fruit farms in the Midwest for nearly a century. The 'lake effect' from Lake Michigan provides a unique climate that protects the region's fruit vines from harsh winter conditions and offers slightly warmer temperatures. This micro-climate has fostered a growing reputation for producing high-quality wine grapes, making it an ideal location for a vineyard and winery.\n\n12 Corners Vineyards was established by a group of friends with a shared appreciation for Michigan's distinctive growing conditions. The vineyard is located just four miles from Michigan's renowned 'Gold Coast' in the neighborhood of Twelve Corners, from which the winery derives its name. The 115-acre estate features both vinifera and hybrid grapes, including varieties such as Riesling, Cabernet Franc, Merlot, Chardonnay, and Traminette.\n\nThe vineyard's diverse soil textures and slopes contribute to a pronounced terroir, enhancing the character of the wines produced. The winemaker, Glen Greiffendorf, combines a passion for wine with extensive knowledge of grape cultivation. The tasting room staff provides exceptional customer service, ensuring a unique and memorable wine-tasting experience.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/12corners.png",
+        "place_id": "ChIJt2pLOgHJEIgRR6M6OipLVJY",
+        "website": "https://www.12corners.com",
+        "wines_url": "https://www.12corners.com/index.cfm?method=storeproducts.showlist&productcategoryid=38BADC1A-B1AB-0A89-FEFC-1784990884EC"
+    },
+    {
+        "position": [41.95499516857211, -86.4492071305508],
+        "name": "Domaine Berrien Cellars",
+        "address": "398 E Lemon Creek Rd, Berrien Springs, MI 49103",
+        "description": "Domaine Berrien Cellars began in 1992 when Tom and Abigail Fricke acquired an 80-acre tart cherry farm in Berrien County, Michigan. Tom, nearing retirement, sought to devote more time to his interests in growing grapes and making wine. Through research and travel, Tom identified similarities between Berrien County and the Northern Rhone of France, leading him to believe that Rhone varieties such as Syrah, Viognier, Marsanne, and Roussanne could thrive in the area. The transition from cherry trees to grapevines was initiated, with planting occurring gradually over the years.\n\nDuring this period, Tom and Abigail’s daughter and son-in-law, Katie and Wally Maurer, split their time between their corporate careers in Chicago and assisting on the farm. Wally and Tom, having previously made small batches of wine as a hobby, began selling grapes to local wineries as production increased.\n\nIn 2001, Wally and Katie pursued their dream of owning a business by establishing Domaine Berrien Cellars, a boutique winery focusing on estate-grown wines.\n\nAfter more than 20 years of operation, Wally and Katie transitioned the winery to Amy Birk and Jacob Nivison in 2022. Jacob, with a degree in Enology and Viticulture from California Polytechnic State University and a decade of experience in vineyards and wineries in Germany, California, and Michigan, brings extensive expertise. Amy, holding a Bachelor of Science in Chemistry from Marquette University and a background as a professor in Lake Michigan College's Wine & Viticulture program, complements the team. Together, Amy and Jacob aim to continue the legacy of Domaine Berrien Cellars, building on the foundation established by the previous generation.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/DomaineBerrien.png",
+        "place_id": "ChIJK22zqaTQEIgRdMQoJ54Y1Ak",
+        "website": "https://www.domaineberrien.com",
+        "wines_url": "https://vinoshipper.com/shop/domaine_berrien_cellars"
+    },
+    {
+        "position": [41.9561945845172, -86.4852562754314],
+        "name": "Baroda Founders",
+        "address": "8963 Hills Road, Baroda, MI 49101",
+        "description": "Leonard Olson, the visionary behind Baroda Founders Wine Cellar, had a profound impact on the wine industry. With roots tracing back to the late 1960s, Olson was instrumental in pioneering European vine cultivation in Michigan, planting 27 diverse grape varieties. He also founded Tabor Hill in 1972, where his winemaking earned accolades and even graced the White House under President Gerald Ford. After leaving Tabor Hill in 1982, Olson expanded his expertise into beer-making and wine-making in Kentucky, contributing significantly to the Kentucky Grape and Wine Council.\n\nOlson’s approach was shaped by global expertise, consulting with distinguished winemakers like Karl Werner and Helmut Becker. His return to Southwest Michigan was marked by a dedication to crafting wines that cater to a wide range of tastes, from classic varietals to unique chocolate and fruit-infused options.\n\nThough Leonard Olson passed away in 2014, his passion for winemaking endures through his son, Gunnar, who now carries on his legacy as the winemaker at Baroda Founders Wine Cellar.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/baroda.png",
+        "place_id": "ChIJS6xuUO_bEIgR0AxcPgNw0TU",
+        "website": "http://barodafounderswinecellar.com",
+        "wines_url": "https://m.founderswinecellar.com/white-wines.php"
+    },
+    {
+        "position": [41.92136833322427, -86.45386110335396],
+        "name": "Round Barn Winery",
+        "address": "9185 Union Pier Road, Union Pier, MI 49129",
+        "description": "Per michigan.org, Round Barn specializes in award-winning wines, handcrafted spirits, and micro brews. In the winemaking business for more than 30 years, the Moersch Family uses time-honored traditions, artfully expressed with a “new world” twist, and are pleased to offer an experience unlike any other. Their secret of success is based around a spirited, educational and unintimidating atmosphere featuring quality service and products. Spend an afternoon making wine, dancing at a summer party (live music every Saturday and Sunday from Memorial Weekend through October) or simply enjoying the countryside.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/round_barn.png",
+        "place_id": "ChIJKaZ6sKDZEIgRmi4evBmVni0",
+        "website": "https://roundbarn.com",
+        "wines_url": ""
+    },
+    {
+        "position": [42.2520487835243, -85.71475206041781],
+        "name": "Lawton Ridge Winery",
+        "address": "8456 Stadium Drive, Kalamazoo, MI 49009",
+        "description": "The Schultz Family, owners of Schultz Fruitridge Farms and Texas Corners Brewing Company, has recently acquired Lawton Ridge Winery. Since 2008, Dean and Crick, the previous owners, have established a reputation for quality wines crafted from Michigan-grown grapes. With their retirement, the Schultz Family is dedicated to continuing this legacy and maintaining the high standards set by their predecessors.\n\nPlans for the winery include expanding the selection of wines and ciders and integrating these offerings into the Texas Corners Brewing Company restaurant and the Schultz Fruitridge Farms market. The winery, located at 8456 Stadium Drive near Kalamazoo, is currently closed for renovations and awaiting a new license. It is expected to reopen by the weekend before New Year’s. Updates will be provided through social media and the winery's website.\n\nLawton Ridge Winery’s grapes benefit from the Lake Michigan Shore AVA, known for its ideal conditions for cool climate viticulture. Established in 1974 on a former peach orchard, the vineyard has transitioned from home winemaking to producing award-winning wines exclusively at Lawton Ridge since 2007. The winery’s meticulous handwork throughout the growing seasons ensures top-quality wines, reflecting a commitment to excellence in every bottle.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/lawton.png",
+        "place_id": "ChIJEdohmG1xF4gRBvWFo1Hg1A8",
+        "website": "https://www.lawtonridgewinery.com",
+        "wines_url": ""
+    },
+    {
+        "position": [42.10880678996181, -86.48208903389295],
+        "name": "Lazy Ballerina Winery",
+        "address": "315 State Street, St. Joseph, MI 49085",
+        "description": "/descriptions/lazyb.md",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/lazy_ballerina.png",
+        "place_id": "ChIJe-YeLaLGEIgRMCMoZVNspRY",
+        "website": "https://www.lazyballerinawinery.com",
+        "wines_url": "https://www.lazyballerinawinery.com/wines/"
+    },
+    {
+        "position": [41.94503679725544, -86.45618567106412],
+        "name": "Dablon Vineyards",
+        "address": "111 W. Shawnee Road, Baroda, MI 49101",
+        "description": "Dablon Vineyards & Winery, located in Baroda, Michigan, is a family-owned estate that spans 75 acres. Founded in 2009, Dablon focuses on producing high-quality wines from 17 varietals, including some unusual to the region, such as Malbec and Petit Verdot. Their award-winning tasting room, which was ranked #8 in the nation by USA TODAY, offers a warm and elegant atmosphere where visitors can enjoy wine tastings and events. Dablon is committed to elevating Michigan wine on the national stage, producing wines that are rich, complex, and full of flavor.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/dablon.png",
+        "place_id": "ChIJMxhwpCraEIgRH-4Ov4gOgp4",
+        "website": "https://www.dablon.com",
+        "wines_url": "https://dablon.com/shop/"
+    },
+    {
+        "position": [41.93344673686147, -86.43964693940845],
+        "name": "Gravity Vineyards",
+        "address": "10220 Lauer Road, Baroda, MI 49101",
+        "description": "Gravity Vineyards & Winery, established in 2011, offers a serene escape in Baroda, Michigan. Situated on a hill with stunning views of a private lake and vineyards, it provides an ideal setting to enjoy estate-grown wines. The winery specializes in a variety of wines, including traditional reds, whites, and sparkling wines. The modern tasting room and expansive deck are perfect for sampling their offerings, including their popular R.A.D. (Really Awesome Drinks) line of canned wine- and cider-based drinks. Gravity emphasizes a relaxed and family-friendly atmosphere with live music on Sundays and a selection of snacks to complement their wines.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/gravity.png",
+        "place_id": "ChIJnfl9BO3ZEIgRda5O160jJ48",
+        "website": "https://gravitywine.com",
+        "wines_url": "https://gravitywine.com/shop"
+    },
+    {
+        "position": [41.95831204486419, -86.44606598551589],
+        "name": "Lemon Creek Winery",
+        "address": "533 E Lemon Creek Rd, Berrien Springs, MI 49103",
+        "description": "/descriptions/lemoncreek.md",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/lemoncreek.png",
+        "place_id": "ChIJZXtfRznaEIgR2123HedVWvA",
+        "website": "https://lemoncreekwinery.com",
+        "wines_url": "https://lemoncreekwinery.com/shop/"
+    },
+    {
+        "position": [41.92599922068693, -86.4463651338733],
+        "name": "Red Top Winery",
+        "address": "482 E Snow Rd, Baroda, MI 49101",
+        "description": "/descriptions/redtop.md",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/redtop.png",
+        "place_id": "ChIJ0c3_TZbZEIgRBMD57duvhdU",
+        "website": "https://www.redtopwinery.com",
+        "wines_url": "https://vinoshipper.com/shop/red_top_winery"
+    },
+    {
+        "position": [41.90130280237837, -86.46798137388019],
+        "name": "Hickory Creek Winery",
+        "address": "750 Browntown Rd, Buchanan, MI 49107",
+        "description": "Hickory Creek Winery, established in 2006, is a small-batch, veteran-owned winery located in the heart of the Lake Michigan Shore AVA. The winery focuses on producing high-quality European-style wines using locally grown grapes. The tasting room, set in a rustic red barn, offers visitors a charming and educational experience, with opportunities to see the production area and taste wines at the hickory wood bar. The winery is known for its dry red, rosé, and white wines, including popular varieties like Cabernet Franc, Merlot, Riesling, and Grüner Veltliner. Guests can enjoy their wine under an heirloom apple tree or in the outdoor seating area, making it a perfect spot for a relaxing visit.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/hickorycreek.png",
+        "place_id": "ChIJAyDps_zYEIgRtT54p9jKZF0",
+        "website": "https://www.hickorycreekwinery.com",
+        "wines_url": "https://www.hickorycreekwinery.com/wines-1"
+    },
+    {
+        "position": [41.93668145128307, -86.42019520086158],
+        "name": "Free Run Cellars",
+        "address": "10062 Burgoyne Rd, Berrien Springs, MI 49103",
+        "description": "Free Run Cellars is a small, family-owned winery in Berrien Springs, Michigan, dedicated to crafting boutique wines that reflect the character of the Lake Michigan Shore AVA. Under the new ownership of Prashanth Pais and Trish Slevin since December 2024, the winery has embraced a fresh vision that emphasizes connection, hospitality, and local culture. The tasting room offers a relaxed, family-friendly atmosphere with outdoor seating, vineyard views, and live music on Sundays. The wine list features a diverse range of dry and sweet whites and reds, including Albariño, Riesling, Lemberger, and Meritage, highlighted by playful, sensory-focused tasting notes. With a focus on small-batch production, community engagement, and approachable experiences, Free Run Cellars is a standout destination along the Southwest Michigan wine trail.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/freerun.png",
+        "place_id": "ChIJcdMVOVbXEIgRhsucPHqFbFc",
+        "website": "https://freeruncellars.com",
+        "wines_url": ""
+    },
+    {
+        "position": [41.91457164978526, -86.45273394689671],
+        "name": "Tabor Hill",
+        "address": "185 Mt. Tabor Rd, Buchanan, MI 49107",
+        "description": "Tabor Hill Winery & Restaurant, located in Buchanan, Michigan, is a renowned destination in the Lake Michigan Shore AVA. Established in the early 1970s, Tabor Hill offers a blend of award-winning wines, fine dining, and scenic vineyard views. Visitors can enjoy a variety of wine tastings, including pre-selected flights, artisan tastings, and exclusive food pairings. The restaurant provides an intimate setting for lunch or dinner, featuring a menu that complements the estate's wines. Tabor Hill also offers guided tours of the winery and vineyards, making it a perfect spot for wine enthusiasts and casual visitors alike.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/taborhill.png",
+        "place_id": "ChIJLQdviqXZEIgRIA0rPN1mU8g",
+        "website": "https://taborhill.com",
+        "wines_url": ""
+    },
+    {
+        "position": [41.95787330112082, -86.48562521620542],
+        "name": "Golden Muse",
+        "address": "8903 Stevensville-Baroda Road, Baroda, MI 49101",
+        "description": "Golden Muse Winery, located in Baroda, Michigan, is a women-owned winery that celebrates the free-spirited lifestyle of the Golden Age of Paris. Situated in the heart of the Lake Michigan Shore AVA, the winery offers a curated selection of vegan-friendly wines and vegetarian small bites. Visitors can enjoy their wines in a Steampunk-styled tasting room or on a 1,200 square foot patio overlooking scenic Lemon Creek. The winery's ambiance combines art, wine, and performance, providing a unique cultural experience that transports guests to turn-of-the-century Paris.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/goldenmuse.png",
+        "place_id": "ChIJg95mRbjbEIgR4IpspOqeiTE",
+        "website": "https://www.goldenmusewinery.com",
+        "wines_url": ""
+    },
+    {
+        "position": [42.144854661408694, -86.26993467546387],
+        "name": "Moonrise Winery",
+        "address": "7785 Hill Road, Watervliet, MI 49098",
+        "description": "Moonrise Winery is a family-owned and operated vineyard located in Watervliet, Michigan, within the Lake Michigan Shore AVA. Established with a deep passion for winemaking, the winery offers a variety of estate-grown wines ranging from dry to sweet. Visitors can enjoy tastings in the brand-new tasting room or on the patio with panoramic views of the vineyard and valley. Moonrise Winery is known for its warm and welcoming atmosphere, making it an ideal destination for wine enthusiasts and casual visitors alike.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/moonrise.png",
+        "place_id": "ChIJb6DOF9vKEIgRAn8mTpKP56kE",
+        "website": "https://www.moonrisewinery.com",
+        "wines_url": "https://www.moonrisewinery.com/our-wines"
+    },
+    {
+        "position": [42.212991359747676, -85.89192674023975],
+        "name": "Warner Vineyards",
+        "address": "706 S Kalamazoo St, Paw Paw, MI 49079",
+        "description": "Warner Vineyards, established in 1938, is Michigan's second-oldest winery, nestled along the banks of the Paw Paw River. The winery is celebrated for its rich history, charming location with a covered bridge and historic buildings, and its wide variety of award-winning wines. Visitors can enjoy tastings in the cozy wine cavern-esque tasting room, explore the scenic property, or participate in one of the many events hosted at the winery's wooden amphitheater. With over 80 years of winemaking expertise, Warner Vineyards is a must-visit destination in the Lake Michigan Shore AVA.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/warner.png",
+        "place_id": "ChIJz4ibbU1qF4gRoldu6bY54XM",
+        "website": "https://www.warnerwines.com",
+        "wines_url": ""
+    },
+    {
+        "position": [41.95583260805179, -86.4860742101662],
+        "name": "Chill Hill Winery",
+        "address": "8986 First Street, Baroda, MI 49101",
+        "description": "Chill Hill Winery, established in 2019, offers a vibrant and relaxing wine experience in the heart of Baroda, Michigan. Rooted in a family legacy that spans seven generations, the winery combines the ease of lakeside life with country charm. Known for its beach-inspired atmosphere and focus on 'good vibes only,' Chill Hill specializes in a variety of wines, hard ciders, and sangrias, many of which are crafted from the over 30 grape varieties grown on their 400-acre family vineyard. The tasting room and outdoor alley events provide a lively, welcoming space for visitors to enjoy quality Michigan-made beverages in a laid-back setting.",
+        "ava": "Lake Michigan Shore",
+        "image": "/assets/winery_logos/chillhill.png",
+        "place_id": "ChIJQY4F0VHbEIgR2e8fxeY-9bs",
+        "website": "https://chillhill.net",
+        "wines_url": ""
+    }
+]
