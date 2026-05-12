@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Box, Typography, useMediaQuery } from '@mui/material';
 import { styled } from '@mui/system';
@@ -73,7 +73,6 @@ const TitleTypography = styled(Typography)(({ isMobile }) => ({
 }));
 
 const FennvilleAVADetails = () => {
-    const [isSticky, setIsSticky] = useState(true);
     const { drawerOpen } = useDrawer();
     const isMobile = useMediaQuery('(max-width:768px)') || isMobileDevice();
 

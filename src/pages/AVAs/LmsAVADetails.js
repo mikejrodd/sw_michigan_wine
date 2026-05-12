@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Box, Typography, useMediaQuery } from '@mui/material';
 import { styled } from '@mui/system';
@@ -68,11 +68,6 @@ const TitleTypography = styled(Typography)(({ isMobile }) => ({
     fontFamily: "'Playfair Display', serif",
     fontWeight: 'bold',
     fontSize: isMobile ? '1rem' : '2rem',
-}));
-
-const RightAlignedTitleTypography = styled(TitleTypography)(({ isMobile }) => ({
-    textAlign: isMobile ? 'center' : 'right',
-    marginRight: isMobile ? '0' : '11.5%',
 }));
 
 const LmsAVADetails = () => {

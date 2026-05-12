@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Dialog, DialogContent, Box } from '@mui/material';
+import { Grid, Dialog, DialogContent } from '@mui/material';
 import VarietyCard from '../../components/VarietyCard';
 import LargeVarietyCard from '../../components/LargeVarietyCard'; // Import the LargeVarietyCard component
 import grapeVarieties from '../../data/lms_varieties.json';

@@ -537,6 +537,7 @@ const Wineries = () => {
                         <IframeContainer>
                             <iframe
                                 src={winery.wines_url}
+                                title={`${winery.name} website preview`}
                                 width="100%"
                                 height={iframeHeight}  // Mobile-friendly height applied here
                                 style={{ border: 'none', borderRadius: '16px' }}

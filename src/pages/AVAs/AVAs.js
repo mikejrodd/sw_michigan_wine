@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import { useNavigate } from 'react-router-dom';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -10,9 +9,6 @@ import './styles.css';
 
 const AVAs = () => {
     const navigate = useNavigate();
-    const [zoomLevel, setZoomLevel] = useState(9.0);
-    const [fennvilleLayer, setFennvilleLayer] = useState(null);
-    const [lakeMichiganShoreLayer, setLakeMichiganShoreLayer] = useState(null);
 
     const handleLogoHover = (layer, marker) => {
         if (layer) {
@@ -42,19 +38,19 @@ const AVAs = () => {
         }
     };
 
-    const handleLogoClick = (avaName) => {
+    const handleLogoClick = useCallback((avaName) => {
         if (avaName === 'Lake Michigan Shore') {
             navigate('/avas/lake-michigan-shore');
         } else if (avaName === 'Fennville') {
             navigate('/avas/fennville');
         }
-    };
+    }, [navigate]);
 
     useEffect(() => {
         // Disable all map interactions
         const map = L.map('map', {
             center: [42.19, -85.55],
-            zoom: zoomLevel,
+            zoom: 9.0,
             zoomControl: false, // Disable zoom control
             dragging: false, // Disable dragging
             scrollWheelZoom: false, // Disable scroll wheel zoom
@@ -75,7 +71,6 @@ const AVAs = () => {
                 fillOpacity: 0, // Initial fill opacity
             },
         }).addTo(map);
-        setFennvilleLayer(fennvilleLayer);
 
         const lakeMichiganShoreLayer = L.geoJSON(lakeMichiganShoreData, {
             style: {
@@ -84,7 +79,6 @@ const AVAs = () => {
                 fillOpacity: 0, // Initial fill opacity
             },
         }).addTo(map);
-        setLakeMichiganShoreLayer(lakeMichiganShoreLayer);
 
         // Create DivIcon for Fennville
         const fennvilleIcon = L.divIcon({
@@ -119,7 +113,7 @@ const AVAs = () => {
         return () => {
             map.remove();
         };
-    }, [zoomLevel]);
+    }, [handleLogoClick]);
 
     return (
         <>
