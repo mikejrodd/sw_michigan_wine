@@ -37,56 +37,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "reactSnap": {
-    "source": "build",
-    "minifyHtml": { "collapseWhitespace": false, "removeComments": false },
-    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
-    "skipThirdPartyRequests": true,
-    "include": [
-      "/",
-      "/grape-varieties",
-      "/avas",
-      "/avas/fennville",
-      "/avas/lake-michigan-shore",
-      "/wineries/wyncroft",
-      "/wineries/modales",
-      "/wineries/fenn-valley-vineyards",
-      "/wineries/filkins-vineyards",
-      "/wineries/crane's-winery",
-      "/wineries/vineyard-2121",
-      "/wineries/st-julian-winery",
-      "/wineries/12-corners-vineyards",
-      "/wineries/domaine-berrien-cellars",
-      "/wineries/baroda-founders",
-      "/wineries/round-barn-winery",
-      "/wineries/lawton-ridge-winery",
-      "/wineries/lazy-ballerina-winery",
-      "/wineries/dablon-vineyards",
-      "/wineries/gravity-vineyards",
-      "/wineries/lemon-creek-winery",
-      "/wineries/red-top-winery",
-      "/wineries/hickory-creek-winery",
-      "/wineries/free-run-cellars",
-      "/wineries/tabor-hill",
-      "/wineries/stranger-wine-company",
-      "/wineries/golden-muse",
-      "/wineries/moonrise-winery",
-      "/wineries/warner-vineyards",
-      "/wineries/chill-hill-winery"
-    ]
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
-  },
-  "devDependencies": {
-    "react-snap": "^1.23.0"
   },
   "browserslist": {
     "production": [
