@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.erase {
+  animation: eraseText 0.9s forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+}
+
+.reveal {
+  animation: revealText 2s forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+@keyframes eraseText {
+  from { width: 100%; }
+  to { width: 0; }
+}
+
+@keyframes revealText {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Mobile overrides for main content area — in plain CSS to avoid Emotion SSR duplication */
+@media (max-width: 768px) {
+  main {
+    padding: 0.5rem !important;
+    margin-left: 0px !important;
+    margin-top: 60px !important;
+    width: 100% !important;
+  }
+}
+
+/* AVAs map styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.map-wrapper {
+  height: calc(100vh - 80px);
+  width: calc(100vw - 340px);
+  position: relative;
+  overflow: hidden;
+  margin-left: 0;
+  padding: 0;
+}
+
+.map-container {
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+}
+
+.custom-marker-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+
+.custom-icon-default svg {
+  fill: #d9c3de;
+  transition: fill 0.3s;
+}
+
+.custom-icon-hovered svg {
+  fill: #d9c3de;
+}

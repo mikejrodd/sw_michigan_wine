@@ -1,0 +1,43 @@
+/* Ensure html, body, and root take up full height */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-screen map wrapper */
+.map-wrapper {
+    height: calc(100vh - 80px); /* Full viewport height */
+    width: calc(100vw - 340); /* Full viewport width */
+    position: relative; /* Ensure that the map-container can be positioned correctly */
+    overflow: hidden; /* Ensure nothing bleeds out */
+    margin-left: 0; /* Remove margin */
+    padding: 1; /* Remove padding */
+}
+
+/* Ensure the map container fills the wrapper */
+.map-container {
+    height: 100% !important; /* Fill the height of the wrapper */
+    width: 100% !important; /* Fill the width of the wrapper */
+    border-radius: 0 !important; /* Remove any border radius */
+    overflow: hidden !important; /* Prevent overflow */
+}
+
+
+.custom-marker-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.custom-icon-default svg {
+    fill: #d9c3de; /* AVA border color */
+    transition: fill 0.3s;
+}
+
+.custom-icon-hovered svg {
+    fill: #d9c3de; /* Color on hover and click */
+}

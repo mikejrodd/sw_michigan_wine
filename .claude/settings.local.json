@@ -3,7 +3,16 @@
     "allow": [
       "Bash(npm install:*)",
       "Bash(node:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(timeout 20 npx next dev --port 3001)",
+      "Bash(npx next:*)",
+      "Bash(ls /Users/mikejrodd-motor/Desktop/sw_michigan_wine/src/_pages/GrapeVarieties/GrapeCharts*)",
+      "Bash(ls /Users/mikejrodd-motor/Desktop/sw_michigan_wine/components/GrapeCharts*)",
+      "Bash(ls /Users/mikejrodd-motor/Desktop/sw_michigan_wine/lib/slugs*)",
+      "Bash(ls .next/server/app/wineries/hickory-creek-winery*)",
+      "Bash(grep -r \"mui-147zha\\\\|mui-cira08\" .next/static/chunks/*.css)",
+      "Bash(find .next:*)",
+      "Bash(python3:*)"
     ]
   }
 }
