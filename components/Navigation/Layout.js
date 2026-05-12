@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Button, Box, IconButton, Drawer, List, ListItem, ListItemText, ListItemIcon, Divider, Collapse, CssBaseline } from '@mui/material';
-import { ExpandLess, ExpandMore, Menu as MenuIcon } from '@mui/icons-material';
+import { AppBar, Toolbar, Button, Box, IconButton, Drawer, List, ListItem, ListItemText, ListItemIcon, Divider, Collapse, CssBaseline, Typography } from '@mui/material';
+import { ExpandLess, ExpandMore, Menu as MenuIcon, InfoOutlined } from '@mui/icons-material';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { styled } from '@mui/system';
@@ -53,7 +53,7 @@ const DrawerHeader = styled('div')({
     alignItems: 'center',
     padding: '0 1rem',
     justifyContent: 'flex-end',
-    minHeight: '92px',
+    minHeight: '40px',
     '@media (max-width: 768px)': {
         justifyContent: 'space-between',
     },
@@ -124,31 +124,19 @@ const ListItemHeader = styled(ListItem)({
 const ScrollableList = styled(List)({
     maxHeight: `${scrollableHeight}px`,
     overflowY: 'scroll',
-    scrollbarWidth: 'thin',
-    scrollbarColor: '#D4B9DB transparent',
-    '&::-webkit-scrollbar': {
-        width: '8px',
-    },
-    '&::-webkit-scrollbar-track': {
-        backgroundColor: 'transparent',
-    },
-    '&::-webkit-scrollbar-thumb': {
-        backgroundColor: '#D4B9DB',
-        borderRadius: '4px',
-    },
 });
 
 const StyledDrawer = styled(Drawer)({
     '& .MuiDrawer-paper': {
         width: drawerWidth,
         boxSizing: 'border-box',
-        overflowY: 'scroll',
-        scrollbarWidth: 'none',
-        '&::-webkit-scrollbar': {
-            display: 'none',
-        },
+        overflowY: 'auto',
+        top: '80px',
+        height: 'calc(100% - 80px)',
         '@media (max-width: 768px)': {
             width: '100vw',
+            top: '60px',
+            height: 'calc(100% - 60px)',
         },
     },
 });
@@ -178,9 +166,6 @@ const Layout = ({ children }) => {
     };
 
     const handleItemClick = () => {
-        if (isMobile) {
-            toggleDrawer();
-        }
     };
 
     return (
@@ -239,14 +224,7 @@ const Layout = ({ children }) => {
                 anchor="left"
                 open={drawerOpen}
             >
-                <DrawerHeader>
-                    <IconButton onClick={handleDrawerToggle}>
-                        <CustomExpandMoreIcon viewBox="0 0 24 12" open={!drawerOpen}>
-                            <path d="M2 2L12 10L22 2" />
-                        </CustomExpandMoreIcon>
-                    </IconButton>
-                </DrawerHeader>
-                <List>
+                <List sx={{ paddingTop: '0.75rem' }}>
                     <CustomListItemContainer>
                         <CustomListItem
                             component={Link}
@@ -313,7 +291,7 @@ const Layout = ({ children }) => {
                         {openWineries ? <ExpandLess /> : <ExpandMore />}
                     </ListItemHeader>
                     <Collapse in={openWineries} timeout="auto" unmountOnExit>
-                        <ScrollableList component="div" disablePadding>
+                        <ScrollableList component="div" disablePadding className="winery-scroll-list">
                             {wineryData.map(winery => (
                                 <CustomListItemContainer key={winery.name.toLowerCase().replace(/ /g, '-')}>
                                     <CustomListItem
@@ -352,6 +330,19 @@ const Layout = ({ children }) => {
                         </List>
                     </Collapse>
                     <CustomDivider />
+                    <CustomListItemContainer>
+                        <CustomListItem
+                            component={Link}
+                            href="/about"
+                            highlighted={activePage === '/about'}
+                            onClick={handleItemClick}
+                        >
+                            <CustomListItemIcon>
+                                <InfoOutlined sx={{ fontSize: '22px', color: '#D4B9DB' }} />
+                            </CustomListItemIcon>
+                            <ListItemText primary="About This Site" />
+                        </CustomListItem>
+                    </CustomListItemContainer>
                     <CustomListItemContainer>
                         <CustomListItem
                             component="a"
@@ -395,6 +386,26 @@ const Layout = ({ children }) => {
                         </CustomListItem>
                     </CustomListItemContainer>
                 </List>
+                <Box sx={{
+                    padding: '2rem 0',
+                    textAlign: 'center',
+                }}>
+                    <Typography
+                        component="a"
+                        href="https://www.fincuva.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        sx={{
+                            color: '#d0d0d0',
+                            fontSize: '0.75rem',
+                            fontFamily: "'Montserrat', sans-serif",
+                            textDecoration: 'none',
+                            '&:hover': { color: '#b0b0b0' },
+                        }}
+                    >
+                        built with ❤️ by fincuva
+                    </Typography>
+                </Box>
             </StyledDrawer>
             <MainContent open={drawerOpen}>
                 {children}

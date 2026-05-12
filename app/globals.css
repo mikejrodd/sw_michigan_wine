@@ -41,6 +41,29 @@
   }
 }
 
+/* Sidebar custom scrollbar — drawer paper and winery list */
+.MuiDrawer-paper,
+.winery-scroll-list {
+  scrollbar-width: thin;
+  scrollbar-color: #f1e1f5 transparent;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar,
+.winery-scroll-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar-track,
+.winery-scroll-list::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar-thumb,
+.winery-scroll-list::-webkit-scrollbar-thumb {
+  background-color: #f1e1f5;
+  border-radius: 4px;
+}
+
 /* AVAs map styles */
 html, body {
   margin: 0;
