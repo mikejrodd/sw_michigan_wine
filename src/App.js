@@ -12,7 +12,6 @@ import Wineries from './pages/Wineries/Wineries';
 import FennvilleAVADetails from './pages/AVAs/FennvilleAVADetails';
 import LakeMichiganShoreAVADetails from './pages/AVAs/LmsAVADetails';
 // import ChatBot from './components/ChatBot';
-import { isMobileDevice } from './utils/detectDevice'; // Import the device detection utility
 import { Box, Typography } from '@mui/material';
 
 const ExternalRedirect = ({ url }) => {
@@ -28,10 +27,6 @@ const ExternalRedirect = ({ url }) => {
 };
 
 function App() {
-    // Force isMobile to be true if the screen width is less than 768px
-    const isMobile = (typeof window !== 'undefined' && window.innerWidth < 768)
-        ? true
-        : isMobileDevice();
 
     return (
         <ThemeProvider theme={theme}>

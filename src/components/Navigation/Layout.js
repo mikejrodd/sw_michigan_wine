@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { AppBar, Toolbar, Button, Box, IconButton, Drawer, List, ListItem, ListItemText, ListItemIcon, Divider, Collapse, CssBaseline } from '@mui/material';
 import { ExpandLess, ExpandMore, Menu as MenuIcon } from '@mui/icons-material'; 
 import { Link, useLocation } from 'react-router-dom';
@@ -148,21 +148,8 @@ const Layout = ({ children }) => {
     const [openAVAs, setOpenAVAs] = useState(true);
     const [openWineries, setOpenWineries] = useState(true);
     const [openGrapeVarieties, setOpenGrapeVarieties] = useState(true);
-    const [showFincuva, setShowFincuva] = useState(true);
-    const [transitionClass, setTransitionClass] = useState('');
     const location = useLocation();
     const activePage = location.pathname;
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setTransitionClass('erase');
-            setTimeout(() => {
-                setShowFincuva(false);
-                setTransitionClass('reveal');
-            }, 1000);
-        }, 4000);
-        return () => clearTimeout(timer);
-    }, []);
 
     const handleDrawerToggle = () => {
         toggleDrawer();

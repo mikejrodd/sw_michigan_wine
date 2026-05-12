@@ -53,32 +53,6 @@ const Title = styled(Typography)(({ small }) => ({
     textAlign: 'center',
 }));
 
-const Address = styled(Typography)(({ small }) => ({
-    color: '#6b6b6b',
-    fontSize: small ? '0.75rem' : '.9rem',
-    marginBottom: small ? '0px' : '10px',
-    lineHeight: 1.1,
-    marginBottom: 0,
-    display: '-webkit-box',
-    WebkitLineClamp: 2,
-    WebkitBoxOrient: 'vertical',
-    overflow: 'hidden',
-    height: small ? 'auto' : 'auto', 
-    alignContent: 'center',
-}));
-
-const Description = styled(Typography)(({ small }) => ({
-    color: '#000',
-    lineHeight: 1.2,
-    overflow: 'hidden',
-    textOverflow: 'ellipsis',
-    display: '-webkit-box',
-    WebkitLineClamp: 3,
-    WebkitBoxOrient: 'vertical',
-    marginTop: small ? '0px' : '4px',
-    marginBottom: small ? '0px' : '-10px',
-}));
-
 const WineryCard = ({ name, location, description, image, small, fontSize = '1rem' }) => {
     const navigate = useNavigate();
 
